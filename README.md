@@ -8,7 +8,7 @@ Simple script to deploy static assets to S3 for [wereplaceyou.com](http://werepl
 
 ### FEATURES:
 * Adds security to view = public, edit = owner 
-* Adds a far future expiration header. (browser caching)
+* Adds a far future expiration header, a year ish (browser caching)
 * gzips the files 
 * Recurses through directories
 * Uses Smush.it before uploading (optional)
